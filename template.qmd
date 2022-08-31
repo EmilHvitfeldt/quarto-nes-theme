@@ -144,11 +144,3 @@ Many different icons
 <i class="nes-icon close is-large"></i>
 <i class="nes-icon trophy is-large"></i>
 <i class="nes-icon coin is-large"></i>
-
-# Thank you! {style="text-align: center;"}
-
-<i class="nes-icon twitter"></i> @Emil_Hvitfeldt
-
-<i class="nes-icon github"></i> EmilHvitfeldt
-
-<i class="nes-icon linkedin"></i> EmilHvitfeldt
