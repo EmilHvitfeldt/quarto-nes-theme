@@ -1,0 +1,9 @@
+title: NES Theme
+author: Emil Hvitfeldt
+version: 1.0.0
+contributes:
+  formats:
+    revealjs:
+      theme: [default, nes.scss, icons.scss]
+      code-line-numbers: false
+      code-copy: false

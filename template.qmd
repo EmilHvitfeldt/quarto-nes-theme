@@ -1,0 +1,154 @@
+---
+title: |
+  <i class="nes-icon coin is-large"></i>
+  NES Theme
+  <i class="nes-icon coin is-large"></i>
+subtitle: "for Quarto revealjs"
+author: "Emil Hvitfeldt"
+format: nes-revealjs
+---
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+Normal text
+
+**Bold text**
+
+*italics*
+
+~~strikethrough~~
+
+[links](https://www.xaringan.gallery/).
+
+## Code expressions
+
+Code chunks and output
+
+```{r}
+#| echo: true
+lm(mpg ~ disp, data = mtcars)
+```
+
+## Block quotes
+
+> Dorothy followed her through many of the beautiful rooms in her
+> castle.
+
+## Ordered list
+
+1.  First item
+2.  Second item
+3.  Third item
+    1.  Indented item
+    2.  Indented item
+4.  Fourth item
+
+## Unordered list
+
+-   First item
+-   Second item
+-   Third item
+-   Fourth item
+
+## ggplot2
+
+```{r scatter}
+#| echo: true
+#| warning: false
+#| output-location: slide
+library(palmerpenguins)
+library(showtext)
+library(ggplot2)
+font_add_google("Press Start 2P")
+showtext_auto()
+
+colors <- c("#76c442", "#f2c409", "#ce372b")
+
+ggplot(penguins) +
+  aes(bill_length_mm, bill_depth_mm,
+      color = species) +
+  geom_point() +
+  theme_minimal(base_family = "Press Start 2P") +
+  scale_color_manual(values = colors)
+```
+
+You can avoid showtext by having [Press Start
+2P](https://fonts.google.com/specimen/Press+Start+2P) font installed
+
+## Social Media Icons
+
+Many different icons
+
+<i class="nes-icon twitter is-large"></i>
+<i class="nes-icon facebook is-large"></i>
+<i class="nes-icon instagram is-large"></i>
+<i class="nes-icon github is-large"></i>
+<i class="nes-icon google is-large"></i>
+<i class="nes-icon gmail is-large"></i>
+<i class="nes-icon medium is-large"></i>
+<i class="nes-icon linkedin is-large"></i>
+<i class="nes-icon twitch is-large"></i>
+<i class="nes-icon youtube is-large"></i>
+<i class="nes-icon reddit is-large"></i>
+<i class="nes-icon whatsapp is-large"></i>
+
+<br>
+
+<br>
+
+### In different sizes
+
+::: columns
+::: {.column width="33%"}
+"is-small"
+
+<i class="nes-icon twitter is-small"></i>
+:::
+
+::: {.column width="33%"}
+"is-medium"
+
+<i class="nes-icon twitter is-medium"></i>
+:::
+
+::: {.column width="33%"}
+"is-large"
+
+<i class="nes-icon twitter is-large"></i>
+:::
+:::
+
+## Reaction Icons
+
+<i class="nes-icon is-large heart"></i>
+<i class="nes-icon is-large is-half heart"></i>
+<i class="nes-icon is-large is-transparent heart"></i>
+<i class="nes-icon is-large heart is-empty"></i>
+
+<i class="nes-icon is-large star"></i>
+<i class="nes-icon is-large star is-half"></i>
+<i class="nes-icon is-large star is-transparent"></i>
+<i class="nes-icon is-large star is-empty"></i>
+
+<i class="nes-icon is-large like"></i>
+<i class="nes-icon is-large like is-empty"></i>
+
+<br>
+
+### And more
+
+<i class="nes-icon close is-large"></i>
+<i class="nes-icon trophy is-large"></i>
+<i class="nes-icon coin is-large"></i>
+
+# Thank you! {style="text-align: center;"}
+
+<i class="nes-icon twitter"></i> @Emil_Hvitfeldt
+
+<i class="nes-icon github"></i> EmilHvitfeldt
+
+<i class="nes-icon linkedin"></i> EmilHvitfeldt
