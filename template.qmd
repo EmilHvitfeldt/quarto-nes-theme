@@ -79,6 +79,13 @@ ggplot(penguins) +
 You can avoid showtext by having [Press Start
 2P](https://fonts.google.com/specimen/Press+Start+2P) font installed
 
+## Custom css classes
+
+A number of different css classes to help you highlight your code in [.blue]{.blue}, [.green]{.green}, [.red]{.red}, [.yellow]{.yellow}
+
+These also have dark variant, so we have [.dark-blue]{.dark-blue}, [.dark-green]{.dark-green}, [.dark-red]{.dark-red}, [.dark-yellow]{.dark-yellow}
+
+
 ## Social Media Icons
 
 Many different icons
